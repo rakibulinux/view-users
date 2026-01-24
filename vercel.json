@@ -1,0 +1,13 @@
+{
+  "buildCommand": "pnpm -r build",
+  "outputDirectory": "apps/frontend/dist",
+  "functions": {
+    "apps/backend/dist/**/*.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/apps/backend/dist/index.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
