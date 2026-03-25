@@ -1,8 +1,0 @@
-{
-  "buildCommand": "pnpm -r build",
-  "outputDirectory": "apps/frontend/dist",
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/apps/backend/dist/server.js" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
