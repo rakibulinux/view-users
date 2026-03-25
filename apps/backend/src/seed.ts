@@ -1,6 +1,6 @@
 import "dotenv/config";
 
-import { prisma } from "./prisma";
+import { prisma } from "./prisma.js";
 
 async function main() {
   const existing = await prisma.user.count();

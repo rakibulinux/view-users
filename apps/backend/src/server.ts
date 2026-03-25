@@ -4,8 +4,8 @@ import cors from "cors";
 import express from "express";
 import swaggerUi from "swagger-ui-express";
 
-import { openApiSpec } from "./openapi";
-import { usersRouter } from "./users";
+import { openApiSpec } from "./openapi.js";
+import { usersRouter } from "./users.js";
 
 const app = express();
 
