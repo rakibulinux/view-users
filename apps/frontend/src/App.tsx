@@ -321,7 +321,7 @@ export default function App() {
         </div>
 
         <div className="text-xs text-slate-500">
-          API: {import.meta.env.VITE_API_URLS ?? "http://localhost:3030"}
+          API: {import.meta.env.VITE_API_URL ?? "http://localhost:3030"}
         </div>
       </div>
     </div>

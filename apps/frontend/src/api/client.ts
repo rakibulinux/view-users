@@ -1,6 +1,6 @@
 import type { Role, User } from "../types/user";
 
-const baseUrl = import.meta.env.VITE_API_URLS ?? "http://localhost:3030";
+const baseUrl = import.meta.env.VITE_API_URL ?? "http://localhost:3030";
 
 async function request<T>(
   path: string,
