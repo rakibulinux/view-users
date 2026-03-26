@@ -1,0 +1,42 @@
+[
+  {
+    "_id": { "$oid": "63e8a1a1c9e4393b4c8b4567" },
+    "name": "John Doe",
+    "email": "john@x.com",
+    "role": "admin",
+    "active": true,
+    "createdAt": { "$date": "2025-01-23T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "63e8a1a1c9e4393b4c8b4568" },
+    "name": "Jane Smith",
+    "email": "jane@x.com",
+    "role": "viewer",
+    "active": false,
+    "createdAt": { "$date": "2025-01-23T10:01:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "63e8a1a1c9e4393b4c8b4569" },
+    "name": "Alice Johnson",
+    "email": "alice@x.com",
+    "role": "editor",
+    "active": true,
+    "createdAt": { "$date": "2025-01-23T10:02:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "63e8a1a1c9e4393b4c8b456a" },
+    "name": "Bob Lee",
+    "email": "bob@x.com",
+    "role": "viewer",
+    "active": true,
+    "createdAt": { "$date": "2025-01-23T10:03:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "63e8a1a1c9e4393b4c8b456b" },
+    "name": "Eve Adams",
+    "email": "eve@x.com",
+    "role": "admin",
+    "active": false,
+    "createdAt": { "$date": "2025-01-23T10:04:00.000Z" }
+  }
+]
